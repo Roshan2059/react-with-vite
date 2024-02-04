@@ -1,0 +1,38 @@
+/* navbar.css */
+
+#mainNav {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+}
+
+#mainNav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+#mainNav li {
+  margin-right: 20px;
+}
+
+#mainNav li:last-child {
+  margin-right: 0;
+}
+
+#mainNav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 2vw;
+}
+
+#mainNav a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  margin-right: 10vw;
+}
